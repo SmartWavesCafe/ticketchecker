@@ -43,24 +43,12 @@
     }
 </style>
 <body>
-	<label for="code">Bejelentkezési kód:</label>
-    <br>
-	<input type="text" id="code">
-    <br></br>
-	<button id="submit">Bejelentkezés</button>
+	<p style="font-size: 20px;">❌</p>
+    <h3>A weboldal át lett költöztetve! Az alábbi linken elérhető:</h3>
+    <a href="https://ticketsystems.github.io/system/">[KLIKK]</a>
 
 	<script>
-		document.getElementById('submit').addEventListener('click', function() {
-			var code = document.getElementById('code').value;
-			if (code === 'base') {
-				window.location.href = 'navigationbase.html';
-			} else if (code === 'enter') {
-				window.location.href = 'navigationbase.html';
-			} else {
-				alert('Kód nincs regisztrálva!');
-			}
-		});
-        document.getElementById("code").value = "";
+		window.location.href = "https://ticketsystems.github.io/system/";
 	</script>
 </body>
 </html>
